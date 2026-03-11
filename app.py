@@ -631,7 +631,7 @@ async function doScan() {
         document.getElementById('btn-scan').disabled = true;
 
         device = await navigator.bluetooth.requestDevice({
-            filters: [{ namePrefix: 'Tap' }],
+            filters: [{ name: 'Tap_D185' }, { namePrefix: 'Tap' }],
             optionalServices: [NUS_SERVICE, TAP_SERVICE],
         });
 
