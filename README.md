@@ -6,7 +6,7 @@ A 30-second finger tapping motor assessment. Connect a Tap Strap 2 via Bluetooth
 
 ## Try It
 
-Open the hosted app (Streamlit Cloud link here) or run locally:
+**[Launch TAPS](https://taps-toolkit.streamlit.app/)** or run locally:
 
 ```bash
 pip install -r requirements.txt
